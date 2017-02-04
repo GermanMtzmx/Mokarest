@@ -114,7 +114,7 @@ __Example:__
     
     
 
-##### Finally import in the main  routing file (index)
+##### Finally import it inside the main  routing file (index)
 index routing file is under "routes" folder
 
 > 1. Import your urls 
