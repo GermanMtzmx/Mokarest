@@ -87,7 +87,7 @@ To create urls for your controllers you must create a new coffee file under "rou
 > 1. Import express
 > 2. Create an instance of express 
 > 3. Import your desired controller
-> 4. Instanciate any controller's class , (see controller module exporting above)
+> 4. instantiate any controller's class , (see controller module exporting above)
 > 5. Create two instances of express router 
 > 6. Create your routes 
 > 7. Export it
