@@ -1,0 +1,17 @@
+bcrypt-nodejs@0.0.3
+body-parser@1.15.2
+coffee-script@1.12.0
+debug@2.3.3
+express@4.14.0
+forever@0.15.3
+graceful-fs@4.1.11
+jade@1.11.0
+js2coffee@2.2.0
+jsonwebtoken@7.2.1
+morgan@1.7.0
+pg@6.1.0
+pg-hstore@2.3.2
+sequelize@3.27.0
+sequelize-cli@2.5.1
+sqlite3@3.1.8
+serve-favicon

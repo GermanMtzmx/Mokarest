@@ -1,0 +1,52 @@
+{
+  "name": "Mokarest",
+  "version": "0.1.0",
+  "private": false,
+  "scripts": {
+    "start": "coffee ./bin/www",
+    "syncdb":"coffee ./bin/syncdb"
+  },
+  "dependencies": {
+    "coffee-script": "1.12.x",
+    "js2coffee": "2.2.x",
+    "express": "4.x",
+    "sequelize": "3.x",
+    "sequelize-cli": "2.x",
+    "pg": "6.1.0",
+    "pg-hstore": "2.x",
+    "body-parser": "1.x",
+    "debug": "2.x",
+    "graceful-fs":"4.x",
+    "morgan":"1.x",
+    "bcrypt-nodejs":"0.0.3",
+    "forever":"0.15.3",
+    "jsonwebtoken":"7.2.1",
+    "sqlite3":"3.1.x",
+    "serve-favicon":"latest"
+  },
+  "description": "Coffeescript POC to develop nodejs endpoints",
+  "main": "app.coffee",
+  
+  "engines": {
+    "node":"7.1.0",
+    "npm":"3.10.9"
+  },
+
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GermanMtzmx/Mokarest.git"
+  },
+  "keywords": [
+    "coffescript",
+    "express",
+    "js",
+    "nodejs",
+    "Mokarest"
+  ],
+  "author": "German Martinez Solis",
+  "license": "BSD",
+  "bugs": {
+    "url": "https://github.com/GermanMtzmx/Mokarest/issues"
+  },
+  "homepage": "https://github.com/GermanMtzmx/Mokarest#readme"
+}

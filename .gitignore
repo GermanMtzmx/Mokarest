@@ -1,0 +1,15 @@
+
+#Logs
+*.log
+npm-debug.log*
+
+
+#Modules
+.npm
+node_modules
+jspm_packages
+pids
+*.pid
+*.seed
+*.pid.lock
+*.sqlite

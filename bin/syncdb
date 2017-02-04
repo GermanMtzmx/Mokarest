@@ -1,0 +1,14 @@
+#!/usr/bin/env coffee
+
+models = require '../models/'
+
+#sync models db
+
+models.sequelize.sync({force:true,logging: console.log }).then(
+	console.log "sync db .."
+	).catch (e)->
+
+	throw new Error(e)
+
+
+	return
