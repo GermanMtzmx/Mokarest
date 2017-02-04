@@ -25,6 +25,9 @@ Just type nmp run start
 
     localhost:3000/api/v1/public/users/signin (post)
     localhost:3000/api/v1/public/users/signup (post)
+    localhost:3000/api/v1/public/users/profile (get - auth required)
+    localhost:3000/api/v1/public/users/profile (put - auth required)
+
 
 By default if sequelize doesnt detect your hostname in the db configuration , will take development settings (sqlite)
 
