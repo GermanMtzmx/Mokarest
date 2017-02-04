@@ -1,13 +1,9 @@
-#Heroku 
-
 config = 
 	
 	#development settings
 	development:
 		dialect:"sqlite"
 		storage:"db.sqlite"
-
-
 
 	#personal
 	MrRobot:
