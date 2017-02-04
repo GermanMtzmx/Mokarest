@@ -1,4 +1,4 @@
-![mokaLogo](https://github.com/GermanMtzmx/restfullCoffeeScript/blob/master/moka.png)
+![mokaLogo](https://github.com/GermanMtzmx/Mokarest/blob/master/moka.png)
 
 
 __Mokarest__ is a [coffeescript] flavor POC to develop restfull endpoints, runs on top of express js, moka is not intended to be a framework, was made to be a basement to develop any [nodejs] proyect.
