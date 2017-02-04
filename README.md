@@ -1,7 +1,7 @@
 ![mokaLogo](https://github.com/GermanMtzmx/Mokarest/blob/master/moka.png)
 
 
-__Mokarest__ is a [coffeescript] flavor POC to develop restfull endpoints, runs on top of express js, moka is not intended to be a framework, was made to be a basement to develop any [nodejs] proyect.
+__Mokarest__ is a [coffeescript] flavor POC to develop restfull endpoints, runs on top of express js, moka is not intended to be a framework, was made to be a basement to develop any [nodejs] project.
 
 By the moment only has jwt auth, public and private routing, database connection ( sequelize js)
 
@@ -53,7 +53,7 @@ Check [SequelizeJS] documentation
 
 > 1. Create a new controller with coffee extension under "controllers" folder
 > 2. Import index models
-> 3. Import status module (taken from django restframework proyect)
+> 3. Import status module (taken from django restframework project)
 > 4. Create any class
 > 5. Export it
 
@@ -130,7 +130,7 @@ index routing file is under "routes" folder
 
 	
 	
-This proyect is under [BSD] License
+This project is under [BSD] License
 
 [SequelizeJS]:http://docs.sequelizejs.com/en/v3/
 [Nodeenv]:https://github.com/ekalinin/nodeenv
