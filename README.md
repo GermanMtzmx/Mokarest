@@ -117,8 +117,8 @@ __Example:__
 ##### Finally import in the main  routing file (index)
 index routing file is under "routes" folder
 
-> 1. Import your urls with controllers methods
-> 2. Set a base url for your custom urls (private and public urls )
+> 1. Import your urls 
+> 2. Set a base for your custom urls (private and public urls )
 
 ###### Example
 
