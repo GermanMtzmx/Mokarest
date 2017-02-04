@@ -23,7 +23,7 @@ Just type nmp run start
 
 ##### Endpoints 
 
-    localhost:3000/api/v1/public/signin (post)
+    localhost:3000/api/v1/public/users/signin (post)
     localhost:3000/api/v1/public/users/signup (post)
 
 By default if sequelize doesnt detect your hostname in the db configuration , will take development settings (sqlite)
