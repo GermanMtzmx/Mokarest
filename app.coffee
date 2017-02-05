@@ -25,17 +25,13 @@ app.use '/api/v1/public',routes.public
 app.use '/api/v1/private',authmiddleware,routes.private
 
 
-#404 error handler
-app.use (req,res,next)->
+#Error handling
 
-	err = new Error 'Not found'
-	err.status = 404
-	next err
-
-
-app.use (err, req, res, next)->
-
-	console.error err.stack 
-	return res.status(500).send("Server Error")
+app.use (err,req,res,next)->
+	res.status err.status or 500
+	res.send 'error',
+		message:err.message
+		error:err
+	return res
 		
 module.exports = app
