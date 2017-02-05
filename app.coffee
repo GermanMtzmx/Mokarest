@@ -6,9 +6,7 @@ routes = require './routes/index'
 authmiddleware = require './auth/auth'
 favicon = require 'serve-favicon'
 router = express.Router()
-
-
-
+status = require './utils/status'
 
 app = express()
 app.use logger 'dev'
@@ -19,7 +17,7 @@ app.use bodyParser.urlencoded
 app.use favicon(__dirname + '/coffee.ico')
 
 
-router.get '/', (req,res)->
+app.get '/', (req,res)->
 	return res.status(status.HTTP_200_OK).send('Mokarest v-0.1')
 
 app.use '/api/v1/public',routes.public
